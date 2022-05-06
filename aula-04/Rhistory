@@ -1,0 +1,363 @@
+dados<-read.csv("C://Leila//cursoR.csv",sep=";")
+dados
+X <- dados$X
+Y <- dados$Y
+modelo <- lm (Y ~ X)
+summary(modelo)
+a<-data.frame(c(1,1,1,1,1,1,1))
+a
+predict(modelo, 1)
+predict(modelo, a)
+X
+Y
+a<-data.frame(c(1,2,3,4,5,6,7))
+a
+predict(modelo, a)
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+summary(modelo)
+modelo <- lm (Y ~ X)
+summary(modelo)
+4.9-0.9*1
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+162.0789 - 0.6421 * 90
+a <- data.frame(c(90,  102, 120, 115,  88, 94, 89, 111, 126, 116,
+139, 113, 122, 125, 128, 98, 93, 124, 121, 126))
+predict(modelo,a)
+dados<-read.csv("C://Leila//cursoR.csv",sep=";")
+attach(dados)
+X <- dados$X
+Y <- dados$Y
+modelo <- lm (Y ~ X)
+summary(modelo)
+a<-data.frame(c(1,2,3,4,5,6,7))
+a
+predict(modelo,a)
+X
+Y
+4.9-0.9*1
+modelo <- lm (X ~ Y)
+summary(modelo)
+a<-data.frame(c(1,2,3,4,5,6,7))
+a
+predict(modelo,a)
+a <- data.frame(c(90,  102, 120, 115,  88, 94, 89, 111, 126, 116,
+139, 113, 122, 125, 128, 98, 93, 124, 121, 126))
+a <- data.frame(c(1,2,3,4,5,6,7))
+a <- data.frame(c(90,  102, 120, 115,  88, 94, 89, 111, 126, 116,
+139, 113, 122, 125, 128, 98, 93, 124, 121, 126))
+a
+a <- data.frame(c(1,1,1,1,1,1,1))
+a
+predict(modelo,a)
+modelo <- lm (Y ~ X)
+summary(modelo)
+a <- data.frame(c(1,1,1,1,1,1,1))
+a
+predict(modelo,a)
+modelo
+b<-read.csv("C://Leila//cursoRprever.csv",sep=";")
+predict(modelo,b)
+a <- data.frame(c(1,  1, 1, 1,  1, 1, 1))
+predict(modelo,a)
+a <- data.frame(c(1.0,  1.0, 1.0, 1.0,  1.0, 1.0, 1.0))
+predict(modelo,a)
+a <- data.frame(c(90,  102, 120, 115,  88, 94, 89, 111, 126, 116,
+139, 113, 122, 125, 128, 98, 93, 124, 121, 126))
+a
+a <- data.frame(c(1.0,  1.0, 1.0, 1.0,  1.0, 1.0, 1.0))
+a
+predict(modelo,a)
+b<-read.csv("C://Leila//cursoRprever.csv",sep=";")
+predict(modelo,b)
+b<-read.csv("C://Leila//cursoRprever.csv",sep=";")
+predict(modelo,b)
+4.9-0.9*2
+4.9-0.9*3
+4.9-0.9*4
+4.9-0.9*5
+4.9-0.9*6
+4.9-0.9*7
+dir <- c(102, 101, 94, 79, 79)
+esq <- c(175, 169, 182, 146, 144)
+mod = lm(esq~dir)
+mod
+# pressao.esq = 43.565 + 1.315*pressao.dir
+pressao.esq = 43.565 + 1.315*100
+pressao.esq  # 175.065
+pressao.dir <- 100
+predict(mod,pressao.dir)
+pressao.dir <- c(100)
+predict(mod,pressao.dir)
+pressao.dir <- data.frame(c(100))
+predict(mod,pressao.dir)
+pressao.dir <- data.frame(c(100,100,100,100,100))
+predict(mod,pressao.dir)
+pressao.dir <- as.data.frame(c(100,100,100,100,100))
+predict(mod,pressao.dir)
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+install.packages("tidyverse")
+library("tidyverse")
+View(tab15_1)
+head(tab15_1, n=5)
+str(tab15_1)
+glimpse(tab15_1)
+print(tab15_1)
+dim(tab15_1)
+names(tab15_1)
+summary(tab15_1)
+cor.test(acuidade_Z,tempo_Y, method = "pearson", alternative="two.sided")
+?lm
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+162.0789 - 0.6421 * 90
+?predict
+acuidade <- read.csv("acuidade.csv")
+acuidade
+predict(modelo,acuidade)
+acuidades <- data.frame(acuidade=c(124,121,126))
+predict(lm(tempo_Y~acuidade),acuidades)
+predict(lm(tempo_Y~acuidade_z),acuidades)
+cor.test(acuidade_Z,tempo_Y, method = "pearson", alternative="two.sided")
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+acuidades <- data.frame(acuidade=c(124,121,126))
+predict(lm(tempo_Y~acuidade_z),acuidades)
+predict(lm(tempo_Y~acuidade_Z),acuidades)
+predict(lm(tempo_Y~acuidade),acuidades)
+predict(lm(tempo_Y~acuidades),acuidade)
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+modelo <- lm(tempo_Y ~ acuidade_Z)
+acuidades <- data.frame(acuidades=c(124,121,126))
+predict(lm(tempo_Y~acuidade_Z),acuidades)
+acuidades <- data.frame(acuidades=c(90))
+predict(lm(tempo_Y~acuidade_Z),acuidades)
+acuidades <- data.frame(acuidades=c(90))
+predict(lm(tempo_Y~acuidades),acuidades)
+acuidades <- data.frame(acuidade_z=c(90))
+predict(lm(tempo_Y~acuidade_z),acuidades)
+acuidades
+acuidades <- data.frame(c(90))
+predict(lm(tempo_Y~acuidade_z),acuidades)
+acuidades_z
+acuidade_z
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+tab15_1
+acuidade <- tab15_1$acuidade_z
+acuidade
+tab15_1
+acuidade <- tab15_1$acuidade_z
+acuidade
+acuidade <- tab15_1$acuidade_Z
+acuidade
+acuidades <- data.frame(c(90))
+predict(lm(tempo_Y~acuidade),acuidades)
+predict(lm(tempo_Y~acuidades),acuidades)
+predict(lm(tempo_Y~acuidades),acuidade)
+predict(lm(tempo_Y~acuidades),acuidades)
+modelo <- lm(tempo_Y ~ acuidade_Z)
+predict(modelo, newdata=data.frame(c(90)))
+x <- data.frame(x=90)
+predict(modelo, newdata=x)
+x <- data.frame(acuidade_Z=90)
+predict(modelo, newdata=x)
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+cor.test(acuidade_Z,tempo_Y, method = "pearson", alternative="two.sided")
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+x <- data.frame(acuidade_Z=90)
+predict(modelo, newdata=x)
+162.0789 - 0.6421 * 90
+x <- data.frame(acuidade_Z=90)
+predict(modelo, newdata=x)
+acuidade <- read.csv("acuidade.csv")
+predict(modelo,newdata=acuidade)
+acuidadenova -> data.frame(acuidade_z=acuidade)
+acuidadenova <- data.frame(acuidade_z=acuidade)
+predict(modelo,newdata=acuidade)
+acuidade <- read.csv("acuidade.csv")
+acuidadenova <- data.frame(acuidade_z=acuidade)
+predict(modelo,newdata=acuidade)
+predict(modelo,newdata=acuidadenova)
+acuidade <- read.csv("acuidade.csv")
+acuidadenova <- data.frame(acuidade_z=acuidade)
+predict(modelo,newdata=acuidadenova)
+predict(modelo,newdata=acuidade)
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+?lm
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+162.0789 - 0.6421 * 90
+?predict
+x <- data.frame(acuidade_Z=90)
+predict(modelo, newdata=x)
+acuidade <- read.csv("acuidade.csv")
+predict(modelo,newdata=acuidade)
+predict(modelo)
+tab15_1
+s
+acuidade <- read.csv("acuidade.csv")
+predict(modelo,newdata=acuidade)
+predict(modelo)
+#Dados
+dir <- c(102, 101, 94, 79, 79)
+esq <- c(175, 169, 182, 146, 144)
+## Reta de regressao -----
+mod = lm(esq~dir)
+mod
+summary(mod)
+## Visualizando o ajuste do modelo graficamente -----
+plot(esq ~ dir, xlab = "bra?o direito", ylab = "bra?o esquerdo", main = "Pressao (mmHg)")
+abline(mod, col = "red")
+### Primeira forma -----
+# pressao.esq = 43.565 + 1.315*pressao.dir
+pressao.esq = 43.565 + 1.315*100
+pressao.esq  # 175.065
+### Segunda forma -----
+# fun??o predict()
+predict(lm(esq~dir)) # retorna os valores de y, para os valores de x existentes
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+?lm
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+162.0789 - 0.6421 * 90
+?predict
+x <- data.frame(acuidade_Z=90)
+predict(modelo, x)
+acuidade <- read.csv("acuidade.csv")
+predict(modelo,newdata=acuidade)
+predict(modelo)
+acuidade_nova <- data.frame(acuidade_Z=90)
+predict(modelo, acuidade_nova)
+acuidade_nova <- read.csv("acuidade.csv")
+predict(modelo,newdata=acuidade_nova)
+predict(modelo)
+#Dados
+dir <- c(102, 101, 94, 79, 79)
+esq <- c(175, 169, 182, 146, 144)
+## Reta de regressao -----
+mod = lm(esq~dir)
+pressao.dir <- data.frame(dir = c(100))
+predict(lm(esq~dir), pressao.dir)   # 175.032
+#Dados
+dir <- c(102, 101, 94, 79, 79)
+esq <- c(175, 169, 182, 146, 144)
+summary(mod)
+## Reta de regressao -----
+mod = lm(esq~dir)
+summary(mod)
+mod
+### Primeira forma -----
+# pressao.esq = 43.5649 + 1.3147*pressao.dir
+pressao.esq = 43.5649 + 1.3147*100
+pressao.esq  # 175.065
+pressao.dir <- data.frame(dir = c(100))
+predict(lm(esq~dir), pressao.dir)   # 175.032
+### Primeira forma -----
+# pressao.esq = 43.5649 + 1.3147*pressao.dir
+pressao.esq = 43.5649 + 1.3147*100
+pressao.esq  # 175.065
+pressao.dir <- data.frame(dir = c(100))
+predict(lm(esq~dir), pressao.dir)   # 175.032
+predict(mod, pressao.dir)   # 175.032
+### Primeira forma -----
+# pressao.esq = 43.5649 + 1.3147*pressao.dir
+pressao.esq = 43.5649 + 1.3147*100
+pressao.esq  # 175.032
+#Dados
+trinta.d <- c(244, 260, 264, 264, 278, 318, 280)
+um.d <- c(456, 614, 567, 943, 628, 1088, 536)
+## Reta de regress?o ----
+mod2 = lm(um.d ~ trinta.d)
+mod2
+summary(mod2)
+## Visualizando o ajuste do modelo graficamente -----
+plot(um.d ~ trinta.d)
+abline(mod2, col = "red")
+### Primeira forma ------
+# pass.um.dia = -1237.626 + 7.073*pass.trinta.dias
+pass.um.dia = -1237.626 + 7.073*300
+pass.um.dia # 884.274
+### Segunda forma ----
+predict(lm(um.d ~ trinta.d))
+pass.trinta.d <- data.frame(trinta.d = c(300))
+predict(lm(um.d ~ trinta.d), pass.trinta.d)  # 884.2894
+#Dados
+co2 <- c(314, 317, 320, 326, 331, 339, 346, 354, 361, 369)
+temp <- c(13.9, 14, 13.9, 14.1, 14, 14.3, 14.1, 14.5, 14.5, 14.4)
+## Reta de regressao -----
+mod3 = lm(temp ~ co2)
+mod3
+## Visualizando o ajuste do modelo graficamente -----
+plot(temp ~ co2)
+abline(mod3, col = "red")
+### Primeira forma -----
+# temperatura = 10.48308 + 0.01092*concentracao de CO2
+temperatura = 10.48308 + 0.01092*370.9
+temperatura # 14.53331
+### Segunda forma -------
+predict(mod3)
+concent <- data.frame(co2 = 370.9)
+predict(mod3, concent)  # 14.53247
+#Dados
+cric <- c(882, 1188, 1104, 864, 1200, 1032, 960, 900)
+temper <- c(69.7, 93.3, 84.3, 76.3, 88.6, 82.6, 71.6, 79.6)
+## Reta de regressao ------
+mod4 = lm(temper ~ cric)
+mod4
+## Visualizando o ajuste do modelo graficamente ----
+plot(temper ~ cric)
+abline(mod4, col = "red")
+### Primeira forma -----
+# temperaturaF = 27.62835 + 0.05227*cricrilos em 1 minuto
+temperaturaF = 27.62835 + 0.05227*3000
+temperaturaF # 184.4384
+### Segunda forma ----
+predict(mod4)
+# Encontrando valores de y, para valores de x novos:
+cric.min <- data.frame(cric = 3000)
+predict(mod4, cric.min)  # 184.445
+#Dados
+atriz <- c(26, 80, 42, 29, 33, 35, 45, 49, 39, 34, 26, 25, 33, 35, 35, 28, 20, 29, 61)
+ator <- c(51, 32, 42, 54, 52, 37, 38, 32, 45, 60, 46, 40, 36, 47, 29, 43, 37, 38, 45)
+## Reta de regressao -----
+mod5 = lm(ator ~ atriz)
+mod5
+plot(ator ~ atriz)
+abline(mod5, col = "red")
+### Primeira forma -----
+# idade.ator = 49.0625 - 0.1821*idade.atriz
+idade.ator = 49.0625 - 0.1821*75
+idade.ator # 35
+## Descobrindo idades de atores (y) para novas idades das atrizes (x):
+atrizes <- data.frame(atriz = c(75))
+predict(lm(ator ~ atriz), atrizes)  # 35
+dados <- load(url(description = "https://www.ime.usp.br/~pam/dados.RData"))
+attach(tab15_1)
+tab15_1
+?lm
+modelo <- lm(tempo_Y ~ acuidade_Z)
+summary(modelo)
+162.0789 - 0.6421 * 90
+?predict
+acuidade_nova <- data.frame(acuidade_Z=90)
+predict(modelo, acuidade_nova)
+acuidade_nova <- read.csv("acuidade.csv")
+predict(modelo,acuidade_nova)
+predict(modelo,newdata=acuidade_nova)
+predict(modelo)
